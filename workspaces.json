@@ -1,0 +1,186 @@
+{
+  "references": {
+    "master_index": {
+      "name": "Claude-Code-Repos-Index",
+      "description": "Master index of all Claude Code repositories - may be more up-to-date than this local catalog",
+      "url": "https://github.com/danielrosehill/Claude-Code-Repos-Index",
+      "purpose": "Reference catalog for discovering additional workspaces"
+    }
+  },
+  "categories": [
+    {
+      "name": "Environment Management",
+      "id": "environment",
+      "description": "Workspaces for managing infrastructure and environment components",
+      "workspaces": [
+        {
+          "name": "Claude-Docker-Manager",
+          "description": "Template management workspace for using Claude to co-admin a Docker environment",
+          "url": "https://github.com/danielrosehill/Claude-Docker-Manager",
+          "clone_url": "git@github.com:danielrosehill/Claude-Docker-Manager.git",
+          "keywords": ["docker", "containers", "devops", "infrastructure"]
+        },
+        {
+          "name": "Claude-Synology-Manager",
+          "description": "Claude workspace pattern for managing a LAN Synology NAS",
+          "url": "https://github.com/danielrosehill/Claude-Synology-Manager",
+          "clone_url": "git@github.com:danielrosehill/Claude-Synology-Manager.git",
+          "keywords": ["synology", "nas", "storage", "backup", "network"]
+        },
+        {
+          "name": "Claude-ADB-Workspace-Template",
+          "description": "Workspace template for Android Debug Bridge (ADB) device management",
+          "url": "https://github.com/danielrosehill/Claude-ADB-Workspace-Template",
+          "clone_url": "git@github.com:danielrosehill/Claude-ADB-Workspace-Template.git",
+          "keywords": ["android", "adb", "mobile", "devices"]
+        },
+        {
+          "name": "Claude-Home-Assistant-Manager-Template",
+          "description": "Template for a Claude Code config at the base of a HAOS filesystem",
+          "url": "https://github.com/danielrosehill/Claude-Home-Assistant-Manager-Template",
+          "clone_url": "git@github.com:danielrosehill/Claude-Home-Assistant-Manager-Template.git",
+          "keywords": ["home-assistant", "smart-home", "automation", "iot"]
+        }
+      ]
+    },
+    {
+      "name": "OS Managers",
+      "id": "os-managers",
+      "description": "Workspaces for operating system and server management",
+      "workspaces": [
+        {
+          "name": "Claude-Linux-Server-Manager",
+          "description": "Template repository for creating Claude Code structured workspace in a remote server environment",
+          "url": "https://github.com/danielrosehill/Claude-Linux-Server-Manager",
+          "clone_url": "git@github.com:danielrosehill/Claude-Linux-Server-Manager.git",
+          "keywords": ["linux", "server", "sysadmin", "remote", "ssh"]
+        }
+      ]
+    },
+    {
+      "name": "Sync",
+      "id": "sync",
+      "description": "Workspaces for synchronization and cross-device management",
+      "workspaces": [
+        {
+          "name": "Claude-OS-Sync-Agent",
+          "description": "Using Claude Code in place of Ansible for cross-device updating and synchronization",
+          "url": "https://github.com/danielrosehill/Claude-OS-Sync-Agent",
+          "clone_url": "git@github.com:danielrosehill/Claude-OS-Sync-Agent.git",
+          "keywords": ["sync", "ansible", "automation", "cross-device", "configuration"]
+        }
+      ]
+    },
+    {
+      "name": "Content Creation",
+      "id": "content-creation",
+      "description": "Workspaces for writing, blogging, and content management",
+      "workspaces": [
+        {
+          "name": "Claude-Blog-Manager",
+          "description": "Conversational CMS: model for using a Claude workspace to manage content",
+          "url": "https://github.com/danielrosehill/Claude-Blog-Manager",
+          "clone_url": "git@github.com:danielrosehill/Claude-Blog-Manager.git",
+          "keywords": ["blog", "cms", "content", "writing", "publishing"]
+        },
+        {
+          "name": "Claude-Code-Writing-Squad",
+          "description": "Model repository structure for using a Claude Code agent crew for writing related tasks",
+          "url": "https://github.com/danielrosehill/Claude-Code-Writing-Squad",
+          "clone_url": "git@github.com:danielrosehill/Claude-Code-Writing-Squad.git",
+          "keywords": ["writing", "agents", "team", "collaboration", "content"]
+        }
+      ]
+    },
+    {
+      "name": "Health And Wellness",
+      "id": "health",
+      "description": "Workspaces for health tracking and wellness applications",
+      "workspaces": [
+        {
+          "name": "Claude-Health-Helper",
+          "description": "Model/template for using Claude for health applications",
+          "url": "https://github.com/danielrosehill/Claude-Health-Helper",
+          "clone_url": "git@github.com:danielrosehill/Claude-Health-Helper.git",
+          "keywords": ["health", "wellness", "tracking", "medical"]
+        },
+        {
+          "name": "Claude-Therapy-Tracker",
+          "description": "Model/template for using Claude Code for therapy tracking (patients)",
+          "url": "https://github.com/danielrosehill/Claude-Therapy-Tracker",
+          "clone_url": "git@github.com:danielrosehill/Claude-Therapy-Tracker.git",
+          "keywords": ["therapy", "mental-health", "tracking", "wellness"]
+        }
+      ]
+    },
+    {
+      "name": "Career",
+      "id": "career",
+      "description": "Workspaces for job search and professional development",
+      "workspaces": [
+        {
+          "name": "Claude-Job-Search-Strategist",
+          "description": "Template for a Claude Code job search space",
+          "url": "https://github.com/danielrosehill/Claude-Job-Search-Strategist",
+          "clone_url": "git@github.com:danielrosehill/Claude-Job-Search-Strategist.git",
+          "keywords": ["job-search", "career", "resume", "applications", "professional"]
+        },
+        {
+          "name": "Claude-Tech-Research-Team",
+          "description": "Example/template for using Claude Code repo structure for tech/stack research",
+          "url": "https://github.com/danielrosehill/Claude-Tech-Research-Team",
+          "clone_url": "git@github.com:danielrosehill/Claude-Tech-Research-Team.git",
+          "keywords": ["tech", "research", "stack", "evaluation", "analysis"]
+        }
+      ]
+    },
+    {
+      "name": "Job Specific",
+      "id": "job-specific",
+      "description": "Workspaces for specific professional tasks",
+      "workspaces": [
+        {
+          "name": "Claude-Media-Monitor",
+          "description": "Slash command for fetching news articles for human analysis",
+          "url": "https://github.com/danielrosehill/Claude-Media-Monitor",
+          "clone_url": "git@github.com:danielrosehill/Claude-Media-Monitor.git",
+          "keywords": ["media", "news", "monitoring", "analysis", "journalism"]
+        }
+      ]
+    },
+    {
+      "name": "Research And Ideation",
+      "id": "research",
+      "description": "Workspaces for research projects, ideation, and policy work",
+      "workspaces": [
+        {
+          "name": "Claude-Think-Tank",
+          "description": "Model repository for a think tank composed of AI agents focused on research and ideating policy proposals",
+          "url": "https://github.com/danielrosehill/Claude-Think-Tank",
+          "clone_url": "git@github.com:danielrosehill/Claude-Think-Tank.git",
+          "keywords": ["think-tank", "policy", "research", "ideation", "agents"]
+        },
+        {
+          "name": "Claude-ADHD-Research-Workspace",
+          "description": "Claude research notebook into ADHD drug access",
+          "url": "https://github.com/danielrosehill/Claude-ADHD-Research-Workspace",
+          "clone_url": "git@github.com:danielrosehill/Claude-ADHD-Research-Workspace.git",
+          "keywords": ["adhd", "research", "healthcare", "policy", "advocacy"]
+        },
+        {
+          "name": "Claude-Stack-Research-Workspace",
+          "description": "Workspace for technology stack research and evaluation",
+          "url": "https://github.com/danielrosehill/Claude-Stack-Research-Workspace",
+          "clone_url": "git@github.com:danielrosehill/Claude-Stack-Research-Workspace.git",
+          "keywords": ["stack", "technology", "research", "evaluation", "comparison"]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "total_workspaces": 15,
+    "author": "danielrosehill",
+    "description": "Claude Code workspace templates for various use cases"
+  }
+}
