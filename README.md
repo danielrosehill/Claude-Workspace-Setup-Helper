@@ -2,7 +2,7 @@
 
 [![Claude Code](https://img.shields.io/badge/Claude-Code-orange?logo=anthropic)](https://claude.ai/code)
 [![Claude Code Projects Index](https://img.shields.io/badge/More%20Claude%20Code%20Projects-Index-blue)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
-[![GitHub Master Index](https://img.shields.io/badge/All%20Repos-Master%20Index-green)](https://github.com/danielrosehill/Github-Master-Index)
+[![GitHub Master Index](https://img.shields.io/badge/All%20Repos-Master%20Index-green)](https://github.com/danielrosehill/Start-Here)
 
 An interactive tool that helps you set up **Claude Workspaces** - pre-configured repository templates for various use cases with Claude Code.
 
